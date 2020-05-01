@@ -1,0 +1,524 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Premier Store</title>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
+
+    <style>
+
+      .cool {
+        margin-top: 300px;
+      }
+      .section {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+      }
+
+      .tabs .indicator{
+      background-color: #1a237e;
+      .tabs .tab a:focus,
+        .tabs .tab a:focus.active {
+          background: transparent,
+        }
+        @media screen and (max-width: 670px) {
+        header {
+          min-height: 500px;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-wrapper indigo">
+        <div class="container">
+          <a href="#" class="brand-logo">Premier Store</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#photos">Home</a></li>
+            <li><a href="#services">Store</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a
+                href="#"
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="twitter"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="btn tooltipped"
+                data-position="bottom"
+                data-tooltip="cart-item"
+              >
+                <span id="item-count">2 items </span></a
+              >
+            </li>
+          </ul>
+
+          <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a href="#photos">Home</a></li>
+            <li><a href="#services">Store</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="card col s6 m6 l6 z-depth-0">
+          <div class="card-image">
+            <img class="activator responsive-img" src="images/model_3.png" />
+          </div>
+        </div>
+        <div class="col s6 m6 l6">
+          
+            <div class="card z-depth-0 cool">
+              
+              <div class="card-content">
+                <p class=" center-align black-text">NEW COLLECTIONS 2020</p>
+                <h2 class="indigo-text">ARRIVAL SALES</h2>
+                <a class="waves-effect waves-light btn-small black center-align"><i class="material-icons right">shopping_basket</i>SHOP NOW</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="progress indigo">
+          <div class="indeterminate"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- photo / grid -->
+
+    <div class="container section scrollspy" id="photos">
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="images/cloth_2.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+          <br />
+          <img
+            src="images/shoe_1.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h4 class="indigo-text text-darken-4">Discover the Collections</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            debitis ad tempora dolor facilis quam natus quis ipsa, quo illum rem
+            eum commodi adipisci iste suscipit, voluptatibus minima
+            exercitationem praesentium?
+          </p>
+          <img
+            src="images/cloth_1.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4 push-l7 offset-l1">
+          <img
+            src="images/model_7.png"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <br />
+        <div class="col s12 l6 pull-l5 right-align offset-l1">
+          <h4 class="indigo-text text-darken-4">Popular Products</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            debitis ad tempora dolor facilis quam natus quis ipsa, quo illum rem
+            eum commodi adipisci iste suscipit, voluptatibus minima
+            exercitationem praesentium?
+          </p>
+          <br />
+          <img
+            src="images/about_1.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="images/prod_2.png"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h4 class="indigo-text text-darken-4">Most Rated</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            debitis ad tempora dolor facilis quam natus quis ipsa, quo illum rem
+            eum commodi adipisci iste suscipit, voluptatibus minima
+            exercitationem praesentium?
+          </p>
+          <img
+            src="images/prod_1.png"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="center indigo-text text-darken-4">Our Store</h2>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card z-depth-0">
+            <div class="card-image">
+              <img src="images/cloth_1.jpg" />
+              <span class="card-title indigo-text">White Vest</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"
+                ><i class="material-icons">shopping_cart</i></a
+              >
+            </div>
+            <div class="card-content">
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively.
+              </p>
+
+              <h5 class="store-item-value">
+                price $ <strong id="store-item-price">5</strong>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-0">
+            <div class="card-image">
+              <img src="images/cloth_3.jpg" />
+              <span class="card-title indigo-text">Blue Shirt</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"
+                ><i class="material-icons">shopping_cart</i></a
+              >
+            </div>
+            <div class="card-content">
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively.
+              </p>
+
+              <h5 class="store-item-value">
+                price $ <strong id="store-item-price">5</strong>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-0">
+            <div class="card-image">
+              <img src="images/cloth_2.jpg" />
+              <span class="card-title indigo-text">White Shirt</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"
+                ><i class="material-icons">shopping_cart</i></a
+              >
+            </div>
+            <div class="card-content">
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively.
+              </p>
+
+              <h5 class="store-item-value">
+                price $ <strong id="store-item-price">5</strong>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-0">
+            <div class="card-image">
+              <img src="images/model_5.png" />
+              <span class="card-title black-text">Denim Jacket</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"
+                ><i class="material-icons">shopping_cart</i></a
+              >
+            </div>
+            <div class="card-content">
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively.
+              </p>
+
+              <h5 class="store-item-value">
+                price $ <strong id="store-item-price">5</strong>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-0">
+            <div class="card-image">
+              <img src="images/prod_3.png" />
+              <span class="card-title black-text">High Heels</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"
+                ><i class="material-icons">shopping_cart</i></a
+              >
+            </div>
+            <div class="card-content">
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively.
+              </p>
+
+              <h5 class="store-item-value">
+                price $ <strong id="store-item-price">5</strong>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-0">
+            <div class="card-image">
+              <img src="images/shoe.png" />
+              <span class="card-title black-text">Blue Shoes</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"
+                ><i class="material-icons">shopping_cart</i></a
+              >
+            </div>
+            <div class="card-content">
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively.
+              </p>
+
+              <h5 class="store-item-value">
+                price $ <strong id="store-item-price">5</strong>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services / tabs -->
+    <section class="section container scrollspy" id="services">
+      <div class="row">
+        <div class="col s12 l4">
+          <h4 class="indigo-text text-darken-4">What We do...</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            at lacus congue, suscipit elit nec, tincidunt orci.
+          </p>
+          <p>
+            Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero.
+            Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.
+          </p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+          <!-- tabs -->
+          <ul class="tabs">
+            <li class="tab col s6">
+              <a href="#new-arrivals" class="active indigo-text text-darken-4"
+                >New arrivals</a
+              >
+            </li>
+            <li class="tab col s6">
+              <a href="#latest-release" class="indigo-text text-darken-4"
+                >Latest-release</a
+              >
+            </li>
+          </ul>
+          <div id="new-arrivals" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">NEW ARRIVALS</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.
+            </p>
+            <p>
+              Mauris dolor augue, vulputate in pharetra ac, facilisis nec
+              libero. Fusce condimentum gravida urna, vitae scelerisque erat
+              ornare nec.
+            </p>
+          </div>
+          <div id="latest-release" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">LATEST-RELEASE</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.
+            </p>
+            <p>
+              Mauris dolor augue, vulputate in pharetra ac, facilisis nec
+              libero. Fusce condimentum gravida urna, vitae scelerisque erat
+              ornare nec.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/street.jpg" alt="" class="responsive-img" />
+      </div>
+    </div>
+
+    <!-- contact form -->
+    <section class="section container scrollspy" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h4 class="indigo-text text-darken-4">Get In Touch</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa
+            tempore illo praesentium eligendi asperiores unde? Porro dolorem,
+            voluptatem reprehenderit consequatur ducimus magni sit. Enim placeat
+            distinctio laboriosam voluptatibus voluptatum?
+          </p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form action="">
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email" />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="date" class="datepicker" />
+              <label for="date">Choose a date you need us for...</label>
+            </div>
+            <div class="input-field">
+              <p>Services required...</p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Mobile Ecommerce</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Sell Online</span>
+                </label>
+              </p>
+            </div>
+            <div class="input-field center">
+              <button class="btn" href="#">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h5>About Us</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Molestias est ipsam, tempora ipsum eaque architecto beatae aut id,
+              veritatis quia alias magnam assumenda nisi eum. Commodi repellat
+              iusto aliquid sapiente!
+            </p>
+          </div>
+          <div class="col s12 l4 offset-l2">
+            <h5>Connect</h5>
+            <ul>
+              <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+              <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+              <li>
+                <a href="#" class="grey-text text-lighten-3">Instagram</a>
+              </li>
+              <li><a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy-right grey darken-4">
+        <div class="container center-align">&copy 2020 Premier Store</div>
+      </div>
+    </footer>
+
+    <script src="js/aos.js"></script>
+    <script src="app.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".materialboxed").materialbox();
+        $(".parallax").parallax();
+        $(".tabs").tabs();
+        $(".datepicker").datepicker({
+          disableWeekends: true,
+        });
+        $(".tooltipped").tooltip();
+        $(".scrollspy").scrollSpy();
+      });
+    </script>
+  </body>
+</html>
